@@ -1,0 +1,425 @@
+/* start of global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.mine-color
+{
+    color: #00c3da !important;
+}
+.mine-color2
+{
+    color: #1f1f1f;;
+    opacity: 0.7;
+}
+.mine-color3
+{
+background-color:#00c3da !important;
+color: #fff !important;
+}
+/* end of global */
+
+
+/* start of navbar */
+nav{
+    z-index: 999999999 !important;
+    border-bottom:white  ;
+}
+.linenav1
+{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    top:58px;
+    left: 0;
+    position: absolute;
+}
+.linenav
+{
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    
+    
+}
+/* end of navbar */
+
+/* start of header part 2 */
+.carousel-inner
+{
+    height: 100vh;
+}
+
+.navNonActive{
+    background: white !important;
+    transition: all 0.5s;
+    
+}
+.navNonActive .nav-item .nav-link{
+    background: white !important;
+    color: black !important;
+    transition: all 0.5s;
+    
+}
+
+.navNonActive .nav-item {
+    background: white !important;
+    color: black !important;
+    transition: all 0.5s;
+    
+}
+
+.navActive{
+    background-color: transparent !important;
+    transition: all 0.5s;
+}
+
+.navActive  .nav-link{
+    background-color: transparent !important;
+    transition: all 0.5s;
+    color: white !important;
+}
+.navActive  .nav-item{
+    background-color: transparent !important;
+    transition: all 0.5s;
+    color: white !important;
+}
+
+
+
+.slide1{
+    height: 100vh;
+    background:linear-gradient( rgba(1,1,1,.5), rgba(1,1,1,.8)), url(../images/bg-image-28.jpg);
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+}
+.slide1 h1
+{
+    font-size: 100px;
+
+}
+
+.slide2{
+    height: 100vh;
+    background:linear-gradient( rgba(1,1,1,.5), rgba(1,1,1,.8)), url(../images/bg-image-29.jpg);
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+}
+.slide2 h1
+{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-color
+{
+    background-color: #00c3da;
+    color:white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00c3da;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00c4daad;
+  }
+
+
+
+
+
+
+  /* section
+  {
+      height: 100vh;
+      background-color: tomato;
+  } */
+  
+.section2
+  {
+      margin-top: 25px;
+      height: vh;
+  }
+  
+  .section2 h5
+  {
+    font-size: 0.9rem;
+    font-weight: bold;
+
+  }
+  .section2 p
+  {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#787878;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 20px 0;
+    line-height: 1.5;
+  }
+
+#AboutBtn:hover
+{
+background-color: #1f1f1f;
+color: white;
+}
+
+#about2 p
+{   
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.75em;
+    color: #666;
+}
+.progress
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 5px;
+}
+
+/* end of header part 2 */
+
+
+
+/* start of about */
+.heading h2
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+
+.heading h3
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+
+}
+.minecolor2
+{
+    color: #1f1f1f;;
+    opacity: 0.7;
+}
+/* end of about */
+
+/* Start of parallex */
+
+.parallex
+{
+    background-color: #1f1f1f;
+    background-image: url(../images/dotted-map.png);
+    opacity: 1;
+    height: 110vh;
+}
+#DoubleU
+{
+    opacity: 0.2;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.parallex .container .row h6
+{
+    font-family: 'Poppins', sans-serif;
+font-size: 13px;
+letter-spacing: 0.1em;
+
+}
+.right-marks li
+{
+    list-style: none;
+    line-height: 40px;
+}
+
+/* end of parallex */
+
+/* start of Cheap price */
+
+
+.cheap-price
+{
+    background-color: #f7f7f7;
+    /* height: 150vh; */
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    padding-bottom: 30px;
+}
+#cardfont
+{
+    color:#787878;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#dollar
+{
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    margin: 0;
+}
+#dollar span
+{
+    font-size: 18px;
+    vertical-align: top;
+
+}
+.third-card
+{
+    transform: scale(1.2);
+}
+.card
+{
+    border-radius: 0;
+
+}
+.card ul li
+{
+    list-style: none;
+    line-height: 40px;
+}
+#bestprice
+{
+position: absolute;
+top: 45px;
+left: 60%;
+width: 70px;
+height: 20px;
+font-size: 0.5rem;
+border-radius: 10px;
+text-align: center;
+align-items: center;
+font-weight: 500;
+padding-top:4px ;
+    
+}
+/* end of Cheap price */
+.team-imgs
+{
+    transition: all 0.3s;
+    padding:0 0 !important;
+
+}
+
+.team-imgs>*:hover{
+transform: translateY(-10px);
+box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+}
+
+/* start of happy customer */
+.happy-customer
+{    
+    background-color: #e8e8e8;
+    height: 85vh;
+    /* position: relative; */
+}
+.carousel-inner-happy{
+    height: 66vh !important;
+}
+#happycustomer
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif
+}
+#row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 2rem;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        /* height: 15rem; */
+        padding-top: 10rem;
+}
+.card-happy{    
+    position: relative;
+}
+
+.con-hapyy-customer{
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+}
+#customer-card img
+{
+    position: absolute;
+border-radius: 50%;
+width: 20%;
+margin: auto;
+/* top: -100px; */
+left: 40%;
+top: -50%;
+}
+.card-text{
+padding-top: 1.5rem;
+}
+.corsl-happy{
+    margin-bottom: 1rem;
+}
+/* end of happy cutsomer */
+
+/* start of footer */
+.footer
+{
+    height: 150vh;
+    background-color: #fff;
+}
+#DoubleG
+{
+    opacity: 0.4;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#exampleInputEmail1
+{
+height: 55px;
+line-height: 1.5;
+}
+
+#exampleInputEmail2
+{
+height: 150px;
+line-height: 1.5;
+}
+
+footer form
+{
+    line-height: 1.5;
+}
+
+#map {
+    height: 125vh;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+
+
+/* end of footer */

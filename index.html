@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="shortcut icon" type="image/png" href="images/logo-dark.png">
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"defer></script>
+      <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          const uluru = { lat: 31.23166093219655,  lng: 29.961073933160247 };
+          // The map, centered at Uluru
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+          });
+          // The marker, positioned at Uluru
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+        }
+      </script>
+    </head>
+
+<body>
+                                    <!--start of header  -->
+
+<header >   
+
+    
+                                    <!--start of navbar  -->
+        
+    <nav id="navbar" class="navbar  w-100 navbar-expand-lg navbar-light position-relative position-fixed  navActive">
+        <div class="container">
+        <a class="navbar-brand" href="#"> <img id="darkmode" src="images/logo-light.png" class="w-50 " alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item active navActive navNonActive">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+            </li>                      
+                <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Works</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link disabled  pr-4 b-3 " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item">
+                <div class="linenav"></div>
+            </li>
+            
+
+            <li class="nav-item">
+                
+                <i class="fab fa-facebook-f m-3 "></i>
+            </li>   
+            <li class="nav-item">
+                
+                <i class="fab fa-instagram m-3 "></i>   
+            
+            </li>   
+
+            <li class="nav-item">
+                
+                <i class="fab fa-twitter m-3 mr-5 "></i>
+
+            </li>   
+
+            </ul>
+        </div>
+
+        <form class="form-inline my-2 my-lg-0">
+
+        </form>
+        
+        </div>
+        <div class="linenav1 ">
+
+        </div>
+    </nav>
+
+                                    <!--end of navbar  -->
+
+                                    <!--start of section -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="d-flex justify-content-center align-items-center slide1">
+
+                <div class="contianer">
+                    <div class="row text-center">
+                        <div>
+                            <h1 data-aos="zoom-in ">Get Awsome.</h1>
+                        
+                        
+                            <p data-aos="zoom-in ">We are an innovative company making digital stuff.</p>
+                        
+                        
+                            <button data-aos="zoom-in " class="btn btn-color p-3">Read More</button>
+
+                        
+                        
+                            <button data-aos="zoom-in " class="btn btn-transparent p-3 px-2 ml-2 border text-white">Contact Us</button>
+
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+
+              </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="d-flex justify-content-center align-items-center slide2">
+                <div class="contianer">
+                    <div class="row text-center">
+                        <div >
+                            <h1 data-aos="zoom-in ">Create With Bezel.</h1>
+                        
+                        
+                            <p data-aos="zoom-in ">We are an innovative company making digital stuff.</p>
+                        
+                        
+                            <button data-aos="zoom-in " class="btn btn-color p-3 px-2">Hire Us</button>
+
+                        
+                        
+                            <button data-aos="zoom-in " class="btn btn-transparent border p-3 px-2 text-white ml-2">Services</button>
+
+                        </div>
+                    </div>
+                </div>
+            
+            </div>        
+            
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+                                    <!--end of section  -->
+
+</header> 
+
+                                    <!--end of header  -->
+
+
+                                    <!--start of about  -->
+
+<section class="about py-5 border">
+<div class="container my-5">
+    <div class="row my-5">
+<div class="text-center section2 col-8 offset-2">
+    <h5 class="my-5"> WHO WE ARE </h5>
+    
+    
+    <p class="mb-5">We are an innovative company. We <span class="mine-color">develop and design</span> for costumers around the world. Our clients are some of the most forward-looking companies in the world.</p>
+    <button id="AboutBtn" class="btn btn-white border p-3 ">Read More</button>
+
+</div>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        
+    <div id="about2" class="col-md-7 mt-3">
+     
+        <p>Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac, viverra felis</p>
+    
+        <p class="my-3">Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.</p>
+        <p>Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.</p>
+    </div>
+
+    <div class="col-md-5">
+        <p class="progress-title">Branding</p>
+        
+             <div class="progress">
+                 
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%; " aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+<div class="d-flex justify-content-space-between">
+
+    <p>Web Design</p>
+    
+</div>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+          <p>Graphic Design</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p>Developmentl</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+    </div>
+
+    
+    </div>
+</div>
+
+</section>
+
+                                    <!--end of about  -->
+
+                                    <!--start of creative  -->
+
+<section class="creative mb-5 pb-5 border">
+    <div class="heading d-flex align-items-center justify-content-center position-relative mt-4">
+        <h2 >C        </h2>
+        <h3 class="position-absolute ">Creative Team
+        </h3>
+    </div>
+    <p class="d-flex justify-content-center align-center mb-5 mine-color2">We are digital thinkers
+    </p>
+    <div class="container">
+
+        <div class="row team-imgs">
+
+            <div class="col-3 w-80 team-img">
+                <img src="images/team-1.jpg" class="w-100" alt="">
+                <div class="imgcaption"></div>
+                
+            </div>
+
+            <div class="col-md-3 w-100 team-img">
+                <img  src="images/team-2.jpg" class="w-100" alt="">
+
+            </div>
+
+            <div class="col-md-3 w-100 team-img">
+                <img src="images/team-3.jpg" class="w-100" alt="">
+
+            </div>
+
+            <div class="col-md-3 w-100 team-img">
+                <img src="images/team-4.jpg" class="w-100" alt="">
+
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+                                    <!--end of creative  -->
+
+                                    <!--start of parallex  -->
+<section class="parallex d-flex justify-content-center align-items-center">
+<div class="container">
+    <div class="row py-5 text-center">
+        <div class="col-2 ">
+            <h6 class="text-white font-weight-bold">STUNNING DESIGN</h6>
+        </div>
+        <div class="col-2  ">
+            <h6 class="text-white font-weight-bold">TIME SAVER</h6>
+        </div>
+        <div class="col-2 ">
+            <h6 class="text-white font-weight-bold">CLEAN CODE</h6>
+        </div>
+        <div class="col-2 ">
+            <h6 class="text-white font-weight-bold">CUSTOMIZABLE</h6>
+        </div>
+        <div class="col-2 ">
+            <h6 class="text-white font-weight-bold">PERFECT LAYOUT</h6>
+        </div>
+        <div class="col-2 ">
+            <h6 class="text-white font-weight-bold">RETINA READY</h6>
+        </div>
+
+        <div class="col-4">
+
+            <div class="heading d-flex align-items-center justify-content-left position-relative mt-4 ">
+                <h2 id="DoubleU" >W </h2>
+                <h3 class="position-absolute text-white mt-4 pl-2">What We Do.
+                </h3>
+            </div>
+            <p class="d-flex justify-content-left align-items-left text-left mb-5 text-white ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam quibusdam repellat vero, recusandae excepturi dignissimos velit et alias amet, quia facilis perferendis.
+            </p>
+        </div>
+        <div class="offset-2 col-3 text-left right-marks mt-5 text-white">
+            <ul>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Research</li>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Opportunity Analysis</li>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Consulting</li>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Brand Planning</li>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Customer Support</li>
+        </ul>
+
+        </div>
+        <div class=" col-3 text-left right-marks mt-5 text-white">
+            <ul>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Logo & Branding</li>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Style guides</li>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Motion graphics</li>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>UX/UI-design</li>
+            <li><i class="fas fa-angle-double-right mr-2 text-white"></i>Social media design</li>
+        </ul>
+        
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+                                    <!--end of parallex   -->
+
+                                    <!--start of Cheap price -->
+
+
+<section class="cheap-price pt-5">
+    <div class="heading d-flex align-items-center justify-content-center position-relative mt-4 pt-4">
+        <h2 class="pb-3">C        </h2>
+        <h3 class="position-absolute ">Cheap Prices
+        </h3>
+    </div>
+    <p  class="d-flex justify-content-center align-center pb-4  mine-color2">We provide the best quality.
+    </p>
+<div class="container mt-5">
+    <div class="row px-5">
+        <div class="col-md-3 col-xs-6">
+            <div class="card w-100" style="width: 17rem;">
+                <div class="card-body py-5">
+                  <p id="cardfont" class="card-title">Starter</p>
+                  <h2 id="dollar"><span>$</span>9</h2>
+                  <ul  class=" Unlimited Channels mine-color2" >
+                    <li>Unlimited Connections</li>
+                    <li>24/7 Support</li>
+                    <li>Full SSL Protection</li>
+                    <li>Unlimited Channels</li>
+
+                    
+                </ul>
+                  <a href="#" class="btn  mine-color3">Sign Up</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-md-3 col-xs-6">
+            <div class="card w-100" style="width: 17rem;">
+                <div class="card-body py-5">
+                  <p id="cardfont" class="card-title">Sliver</p>
+                    <h2 id="dollar"><span>$</span>19</h2>
+                    <ul  class=" Unlimited Channels mine-color2" >
+                        <li>Unlimited Connections</li>
+                        <li>24/7 Support</li>
+                        <li>Full SSL Protection</li>
+                        <li>Unlimited Channels</li>
+
+                        
+                    </ul>
+                  <a href="#" class="btn  mine-color3">Sign Up</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-md-3 col-xs-6">
+            <div class="card w-100 third-card" style="width: 18rem;">
+                <div class="card-body py-5">
+                  <p id="cardfont" class="card-title">Gold <span id="bestprice" class="mine-color3">BEST VALUE</span></p>
+                  <h2 id="dollar" class="mine-color "><span>$</span>29 </h2>
+                  <ul  class=" Unlimited Channels mine-color2" >
+                    <li>Unlimited Connections</li>
+                    <li>24/7 Support</li>
+                    <li>Full SSL Protection</li>
+                    <li>Unlimited Channels</li>
+
+                    
+                </ul>
+                  <a href="#" class="btn  mine-color3">Sign Up</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-md-3 col-xs-6">
+            <div class="card w-100" style="width: 17rem;">
+                <div class="card-body py-5">
+                  <p id="cardfont" class="card-title">Platinum</p>
+                  <h2 id="dollar" class="border-bottom my-3 "><span>$</span>49</h2>
+                    <ul  class=" Unlimited Channels mine-color2" >
+                        <li>Unlimited Connections</li>
+                        <li>24/7 Support</li>
+                        <li>Full SSL Protection</li>
+                        <li>Unlimited Channels</li>
+
+                        
+                    </ul>
+                  <a href="#" class="btn  mine-color3">Sign Up</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+                                    <!--end of Cheap price   -->
+
+                                    <!--start of happy customer   -->
+
+<section class="happy-customer">
+    <div id="happycustomer" class="text-center py-5"> HAPPY CUSTOMERS</div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        </ol>
+        <div id="customer-card"class="carousel-inner carousel-inner-happy">
+        <div class="container con-hapyy-customer">
+                <div id="row">
+          <div class="carousel-item active col-12">
+            <div  class="card card-happy " style="width: 30rem;">
+                <img src="images/testimonial-1.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item col-12">
+            <div class="card" style="width: 30rem;">
+                <img src="images/testimonial-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <a class="carousel-control-prev " href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon corsl-happy" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next " href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon corsl-happy" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</section>
+
+                                    <!--end of happy customer   -->
+
+                                    <!--start of footer   -->
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="map" class="mt-5"></div>
+            </div>
+
+            <div class="offset-1 col-md-5">
+                
+                <div class="heading d-flex align-items-center justify-content-left position-relative mt-4 ">
+                    <h2 id="DoubleG" >G </h2>
+                    <h3 class="position-absolute  mt-4 pl-2">Get In Touch
+                    </h3>
+                </div>
+                <p class="d-flex justify-content-left align-items-centertext-left mb-5 ml-3 mine-color2">
+                    Let's work together.
+                </p>
+
+                
+
+                <form>
+                    <div class="form-group my-4">
+                        <label for="">Your Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" >
+                      </div>
+                    <div class="form-group my-4">
+                      <label for="">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" >
+                    </div>
+                    <div class="form-group my-4">
+                        <label for="">Phone Number</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" >
+                        <div class="form-group my-4">
+                            <label for="">Your Message </label>
+                            <input type="text" class="form-control" id="exampleInputEmail2" >
+
+                <div>
+                    <button id="last-btn" type="submit" class="btn  mine-color3 mt-5 font-weight-bold">Send Message</button>
+                </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+                                    <!--end of footer   -->
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init(); </script>
+  
+
+    <script src="js/main.js"></script>
+</body>
+</html>
